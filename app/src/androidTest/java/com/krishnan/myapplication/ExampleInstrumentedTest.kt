@@ -1,4 +1,4 @@
-package com.ioappstudio.myapplication
+package com.krishnan.myapplication
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

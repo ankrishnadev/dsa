@@ -1,4 +1,4 @@
-package com.ioappstudio.dsa.alogrithm.search
+package com.krishnan.dsa.alogrithm.search
 
 fun binarySearch(arrayInput: Array<Int>, target: Int): Int {
 

@@ -1,4 +1,4 @@
-package com.ioappstudio.myapplication
+package com.krishnan.myapplication
 
 import org.junit.Test
 

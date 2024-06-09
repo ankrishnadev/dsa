@@ -1,4 +1,4 @@
-package com.ioappstudio.dsa.ui.theme
+package com.krishnan.dsa.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

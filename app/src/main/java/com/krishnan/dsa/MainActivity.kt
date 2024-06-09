@@ -1,4 +1,4 @@
-package com.ioappstudio.dsa
+package com.krishnan.dsa
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.ioappstudio.dsa.ui.theme.MyApplicationTheme
+import com.krishnan.dsa.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

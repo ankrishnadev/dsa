@@ -1,4 +1,4 @@
-package com.ioappstudio.dsa
+package com.krishnan.dsa
 
 val binaryInputArray = arrayOf(2, 5, 6, 7, 78, 44, 33, 65)
 fun main() {
