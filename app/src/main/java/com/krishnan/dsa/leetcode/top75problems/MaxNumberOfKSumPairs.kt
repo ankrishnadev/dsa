@@ -6,7 +6,6 @@ fun main() {
 }
 
 private fun sumPairs(arr: Array<Int>, k: Int) {
-
     arr.sort()
     var i = 0
     var length = arr.size - 1
