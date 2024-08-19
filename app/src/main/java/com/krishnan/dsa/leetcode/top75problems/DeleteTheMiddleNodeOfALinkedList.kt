@@ -1,9 +1,17 @@
 package com.krishnan.dsa.leetcode.top75problems
 
+import java.util.LinkedList
+
 
 fun main() {
     val input = listOf(1, 3, 4, 7, 1, 2, 6)
     //println(deleteMiddleNode(input))
+
+    val linkedList = LinkedList<Int>()
+    linkedList.add(1)
+    linkedList.add(2)
+
+    linkedList.peek()
 }
 
 class ListNode(var `val`: Int) {
