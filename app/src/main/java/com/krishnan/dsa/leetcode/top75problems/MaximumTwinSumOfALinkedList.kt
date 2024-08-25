@@ -9,6 +9,7 @@ class NodeNext(val `val`: Int) {
 }
 
 private fun maxTwoSum(head: NodeNext?): Int {
+    // Find middle point
     var slow = head
     var fast = head
     while (fast?.next != null) {
@@ -16,6 +17,7 @@ private fun maxTwoSum(head: NodeNext?): Int {
         fast = fast.next?.next
     }
 
+    // Reverse order
     var prev: NodeNext? = null
     var current = slow
     while (current != null) {
@@ -25,6 +27,7 @@ private fun maxTwoSum(head: NodeNext?): Int {
         current = nextTemp
     }
 
+    // Find sum for two array
     var maxSum = 0
     var firstHalf = head
     var secondHalf = prev
