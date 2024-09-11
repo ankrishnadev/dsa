@@ -3,6 +3,15 @@ package com.krishnan.dsa.leetcode.top75problems
 import java.util.LinkedList
 import java.util.Queue
 
+fun main() {
+    val treeNode = TreeNode(5)
+    treeNode.also {
+        it.left?.`val` = 2
+    }
+
+    maxLevelSum(treeNode)
+}
+
 fun maxLevelSum(root: TreeNode?): Int {
     if (root == null) return 0
 
