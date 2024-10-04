@@ -25,11 +25,11 @@ fun totalCost(costs: IntArray, k: Int, candidates: Int): Long {
 
     fun isLeft(n: Int): Boolean = n % 2 == 0
 
-    for (c in 0 until k) {
+    for (c in 0 until i) {
         left(c)
     }
 
-    for (c in costs.indices) {
+    for (c in j until costs.size) {
         right(c)
     }
 
@@ -40,7 +40,5 @@ fun totalCost(costs: IntArray, k: Int, candidates: Int): Long {
             if (isLeft(v)) left(i++) else right(--j)
         }
     }
-
     return total
-
 }
