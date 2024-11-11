@@ -1,3 +1,3 @@
 # Data Structure and Algorithms
 
-This branch provides a comprehensive collection of Leetcode problems, ranging from basic to advanced levels, allowing users to build problem-solving skills progressively.
+This branch provides a comprehensive collection of Leetcode problems, ranging from basic to advanced levels.
