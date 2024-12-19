@@ -14,5 +14,5 @@ fun majorityElement(array: IntArray): Int {
         }
         count += if (num == previousValue) 1 else -1
     }
-    return count
+    return previousValue
 }
