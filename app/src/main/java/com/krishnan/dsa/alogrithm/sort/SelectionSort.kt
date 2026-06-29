@@ -1,3 +1,5 @@
+package com.krishnan.dsa.alogrithm.sort
+
 fun main() {
     val array = arrayOf(14, 55, 3, 2, 45, 14)
     sortArrayAsAscendingOder(array)
